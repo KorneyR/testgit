@@ -5,7 +5,7 @@
  * Date: 12.12.2016
  * Time: 23:30
  */
-require_once ("db.php");
+require ("db.php");
 $i=10;
 $i+=++$i+$i+$i+++$i+$i++;
 echo $i;
